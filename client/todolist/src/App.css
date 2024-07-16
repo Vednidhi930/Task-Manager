@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Prata&display=swap');
+
+body{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:rgba(60, 99, 130,1.0);
+}
+
+.crud-operation-hide{
+  
+    position: absolute;
+    top: -20%;
+    opacity: 0;
+}
+
+.crud-operation-show{
+    opacity: 1;
+    top: 8%;
+    transition: all 0.5s ease-in-out;
+}
+
+.overlay_hide{
+    position: absolute;
+    top: -100%;
+    transition: all 0.3s ease;
+}
+
+.overlay_show{
+    top: 2.2%;
+    transition: all 0.3s ease;
+}
+
